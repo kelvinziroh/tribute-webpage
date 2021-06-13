@@ -1,0 +1,12 @@
+/* layout */
+/* small screens */
+@media (max-width: 426px){
+    body {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    header, main, footer {
+        grid-column: 2 / -2;
+    }
+}
