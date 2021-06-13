@@ -9,4 +9,9 @@
     header, main, footer {
         grid-column: 2 / -2;
     }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
