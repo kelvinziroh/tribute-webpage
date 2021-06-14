@@ -11,6 +11,10 @@ figure, ul, blockquote {
     margin: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 /* layout */
 /* small screens */
 @media (max-width: 426px){
