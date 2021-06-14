@@ -1,3 +1,16 @@
+/* general styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+figure {
+    padding: 5px;
+    margin: 0;
+}
+
 /* layout */
 /* small screens */
 @media (max-width: 426px){
@@ -8,10 +21,5 @@
 
     header, main, footer {
         grid-column: 2 / -2;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
     }
 }
