@@ -23,3 +23,15 @@ figure, ul, blockquote {
         grid-column: 2 / -2;
     }
 }
+
+/* large screens */
+@media (max-width: 1024px){
+    body {
+        display: grid;
+        grid-template-columns: repeat(16, 1fr);
+    }
+
+    header, main, footer {
+        grid-column: 3 / -3;
+    }
+}
