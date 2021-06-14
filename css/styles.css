@@ -6,7 +6,7 @@ img {
     margin: auto;
 }
 
-figure {
+figure, ul, blockquote {
     padding: 5px;
     margin: 0;
 }
