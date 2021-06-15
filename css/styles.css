@@ -7,13 +7,31 @@ img {
 }
 
 #img-div > figcaption {
-    margin-top: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
 }
 
 h1, 
 header > p,
 h2 {
     text-align: center;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+header > p {
+    font-family: 'Caveat', cursive;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
 }
 
 figure, 
@@ -28,7 +46,7 @@ ul {
 }
 
 /* large screens */
-@media (max-width: 1024px){
+@media (max-width: 1440px){
     /* layout */
     body {
         display: grid;
