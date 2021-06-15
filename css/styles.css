@@ -6,17 +6,25 @@ img {
     margin: auto;
 }
 
-figure, ul, blockquote {
+#img-div > figcaption {
+    margin-top: 5px;
+}
+
+h1, 
+header > p,
+h2 {
+    text-align: center;
+}
+
+figure, 
+ul, 
+blockquote {
     padding: 5px;
     margin: 0;
 }
 
 ul {
     list-style: none;
-}
-
-h1 {
-    text-align: center;
 }
 
 /* large screens */
@@ -28,7 +36,9 @@ h1 {
         font-size: 22px;
     }
 
-    header, main, footer {
+    header, 
+    main, 
+    footer {
         grid-column: 3 / -3;
     }
 }
@@ -42,7 +52,9 @@ h1 {
         font-size: 15px;
     }
 
-    header, main, footer {
+    header, 
+    main, 
+    footer {
         grid-column: 2 / -2;
     }
 }
