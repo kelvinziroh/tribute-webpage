@@ -34,6 +34,18 @@ h2 {
     font-family: 'Abril Fatface', cursive;
 }
 
+li > p {
+    line-height: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 figure, 
 ul, 
 blockquote {
